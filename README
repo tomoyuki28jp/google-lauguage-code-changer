@@ -1,0 +1,9 @@
+HOW TO INSTALL
+---------------
+
+(1) git clone git://github.com/tomoyuki28jp/google-lauguage-code-changer.git ~/.mozilla/firefox/xxxxxxxx.default/gm_scripts/google_lauguage_code_changer
+
+(2) Add following code to your ~/.mozilla/firefox/xxxxxxxx.default/gm_scripts/config.xml
+	<Script filename="google_lauguage_code_changer.user.js" name="Google Lauguage Code Changer" namespace="Minibuffer.GLCS" description="Change your language code of google search result pages" enabled="true" basedir="google_lauguage_code_changer">
+		<Include>http://*.google.*/search?*</Include>
+	</Script>
