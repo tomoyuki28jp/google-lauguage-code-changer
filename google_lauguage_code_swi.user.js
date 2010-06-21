@@ -2,7 +2,7 @@
 // @name           Google Lauguage Code Switcher
 // @namespace      Minibuffer.GLCS
 // @description    Change/add the hl parameter value on google result pages.
-// @include        http://*
+// @include        http://*.google.*/search?*
 // ==/UserScript==
 
 var VERSION = '22 Feb 2010';
